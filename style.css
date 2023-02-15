@@ -1,0 +1,91 @@
+.test {
+    cursor: pointer;
+    background-color: rgb(255, 238, 0);
+    border-radius: 12px;
+}
+.test:hover {
+    border: 4px solid #fceb00;
+    color: #202020;
+    box-shadow: 0px 0px 25px #fceb00, 0px 0px 10px #fff67c inset;
+    text-shadow: 0px 0px 5px #fff679, 0px 0px 2px #fceb00;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+.logo {
+    width: 100%;
+    position: absolute;
+    max-width: 70px;
+    left: 537px;
+}
+body {
+    background-color: rgb(196, 196, 196);
+}
+.compras {
+    max-width: 40px;
+    top: 20px;
+    left: 500px;
+    cursor: pointer;
+}
+
+.voltaraba {
+    max-width: 80px;
+    top: 30px;
+    left: 500px;
+    cursor: pointer;
+}
+
+h1 {
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.price {
+    background: none;
+    border: 4px solid #00ff08;
+    color: #ffffff;
+    box-shadow: 0px 0px 25px #00ff08, 0px 0px 10px #4ff855 inset;
+
+    border-radius: 300px;
+}
+
+
+.group {
+    background: #202020;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.item {
+    color: #fff;
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+} 
+
+  #divBusca img{
+    float:left;
+  }
+
+  .imagem {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50px;
+  }
+
+  
